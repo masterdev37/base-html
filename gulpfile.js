@@ -52,7 +52,7 @@ function buildCopy() {
 		'app/fonts/**/*',
 		'app/images/**/*',
 		'app/**/*.ico',
-		'!app/parts/**/*.html',
+		'!app/includes/**/*.html',
 	], { base: 'app' })
 	.pipe(dest('dist'));
 }
